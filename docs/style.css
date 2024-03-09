@@ -1,0 +1,36 @@
+header{
+    background: #000;
+    display: flex;
+}
+header img{
+    width: 100%;
+    height:auto;
+    padding-left: 0.5rem;
+    margin-top: 1rem;
+    
+}
+header a{
+    display: inline-block;
+    width: 10%;
+    height: auto;
+}
+.menu{
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+}
+.menu a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+.menu li{
+    display: inline;
+    padding: 1rem;
+    position: relative;
+    left:100%;
+}
+#right{
+    position: absolute;
+    right:0px;
+}
