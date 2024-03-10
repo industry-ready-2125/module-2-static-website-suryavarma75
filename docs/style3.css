@@ -160,14 +160,17 @@ h2{
     gap:1rem;
 }
 .bot {
-    width: 25px;
-    height: 25px;
+    width: 2rem;
+    height: 2rem;
     position: fixed;
-    bottom: 3%;
-    right: 3%;
+    bottom: 10%;
+    right: 5%;
     animation: blink-fade 1s step-end infinite;
 }
-  
+.bot>img{
+    width: 3rem;
+    height: 3rem;
+}
 @keyframes blink-fade {
     from { opacity: 1; } 
     25% { opacity: 0; }  
