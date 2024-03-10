@@ -39,6 +39,7 @@ header a{
     top:55%;
     left:5%;
     width:30%;
+    height: auto;
 }
 button{
     width: 45%;
@@ -50,6 +51,11 @@ button{
     border-style: none;
     font-family:'Times New Roman', Times, serif;
     font-size : 1rem;
+}
+button a{
+    text-decoration: none; 
+    font:400;
+    color:black;
 }
 div{
     height: 100vh;
@@ -70,4 +76,68 @@ div{
 .icon{
     width: 2rem;
     height: auto;
+}
+.cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.head > h2{
+    font-size: 2.25rem;
+    margin:0;
+}
+.head > p{
+    margin:0;
+    font-size: 0.75rem;
+}
+.head > h4{
+    margin:0;
+    padding:0.2rem;
+    font-size: 1rem;
+}
+.tail{
+    display: flex;
+    flex-direction: column;
+    height:50vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+    
+}
+.tail > div{
+    display: flex;
+    justify-content: center;
+    height:20%;
+    align-items: center;
+    gap:1rem;
+}
+.shop{
+    width:15rem;
+    border-radius: 2px;
+}
+.demo{
+    width:15rem ;
+    background-color: dimgray;
+    color: white;
+}
+.zero{
+    flex-direction: column;
+    color: whitesmoke;
+}
+.modely,.modelx{
+    background-image: url("./resource/model_y.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.modelx{
+    background-image: url("./resource/model_x.png");
 }
